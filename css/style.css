@@ -1,4 +1,8 @@
 /*General*/
+html {
+	height: 100%;
+}
+
 body {
 	font-family: "ff-clavo";
 	background-image: -webkit-linear-gradient(bottom left, #fc7279 10%, #ff7b9c65%, #ffc019 125%);
