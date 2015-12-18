@@ -255,7 +255,9 @@ h2 h6 {
 /*Footer*/
 
 .footer {
-	background-color: #545355;
+	background-color: rgba(56,56,56,1);
+	background: @include filter-gradient(#383838, #0d0d0d, horizontal);
+	background: @include background-image(linear-gradient(left, rgba(56,56,56,1) 0%, rgba(74,74,74,1) 0%, rgba(66,66,66,0.99) 12%, rgba(51,51,51,0.96) 34%, rgba(31,31,31,0.94) 54%, rgba(13,13,13,0.93) 60%, rgba(0,0,0,0.92) 71%, rgba(20,20,20,0.9) 91%, rgba(13,13,13,0.89) 100%));
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
