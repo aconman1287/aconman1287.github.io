@@ -263,6 +263,8 @@ h2 h6 {
 	padding-bottom: 5px;
 	padding-left: 50px;
 	padding-right: 50px;
+	position: absolute;
+	bottom: 0px;
 }
 
 .footer h6 {
