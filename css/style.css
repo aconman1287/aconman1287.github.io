@@ -84,14 +84,8 @@ h2 h6 {
 /*Header*/
 
 .header {
-	/*background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/woods.jpg');*/
-	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  /*background-size: 1280px;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
-	/*min-height: 400px;*/
 	color: white;
 }
 
@@ -259,12 +253,11 @@ h2 h6 {
 .footer {
 	background-color: #545355;
 	color: white;
-	padding-top: 5px;
-	padding-bottom: 5px;
 	padding-left: 50px;
 	padding-right: 50px;
 	position: absolute;
 	bottom: 0px;
+	width: 100%;
 }
 
 .footer h6 {
