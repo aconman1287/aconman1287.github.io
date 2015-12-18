@@ -1,14 +1,17 @@
 /*General*/
 body {
-	font-family: "factoria";
+	font-family: "ff-clavo";
+	background-image: -webkit-linear-gradient(bottom left, #fc7279 10%, #ff7b9c65%, #ffc019 125%);
+	background-image: linear-gradient(to top right,#fc7279 10%, #ff7b9c 65%, #ffc019 125%);
+	color: white;
 }
 
 h1 {
-  font-family: "ff-market-web";
+  font-family: "ff-kinescope";
 }
 
 h2 h6 {
-	font-family: "flood-std";
+	font-family: "ff-kinescope";
 }
 
 .social {
@@ -81,19 +84,19 @@ h2 h6 {
 /*Header*/
 
 .header {
-	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/woods.jpg');
+	/*background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/woods.jpg');*/
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 1280px;
+  /*background-size: 1280px;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
-	min-height: 400px;
+	/*min-height: 400px;*/
 	color: white;
 }
 
 .headerRow {
-	margin-top: 120px;
+	margin-top: 20px;
 }
 
 .name {
