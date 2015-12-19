@@ -61,13 +61,16 @@ h2 h6 {
 
 .navbar {
 	margin-bottom: 0px;
-	background-color: white;
+}
+
+.navbar-default {
+	background-color: none;
+	border-color: none;
 }
 
 @media (min-width: 768px) {
 	.navbar {
 		border-radius: 0px;
-		border-color: white;
 	}
 }
 
@@ -76,7 +79,7 @@ h2 h6 {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: black;
+	color: white;
 }
 
 .logo {
