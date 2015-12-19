@@ -64,8 +64,8 @@ h2 h6 {
 }
 
 .navbar-default {
-	background-color: none;
-	border-color: none;
+	background-color: transparent;
+	border-color: transparent;
 }
 
 @media (min-width: 768px) {
