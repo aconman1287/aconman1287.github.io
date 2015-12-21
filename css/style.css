@@ -4,18 +4,18 @@ html {
 }
 
 body {
-	font-family: "ff-clavo";
+	font-family: "tk-clavo";
 	background-image: -webkit-linear-gradient(bottom left, #fc7279 10%, #ff7b9c 65%, #ffc019 125%);
 	background-image: linear-gradient(to top right,#fc7279 10%, #ff7b9c 65%, #ffc019 125%);
 	color: white;
 }
 
 h1 {
-  font-family: "ff-kinescope";
+  font-family: "tk-kinescope";
 }
 
 h2 h6 {
-	font-family: "ff-kinescope";
+	font-family: "tk-kinescope";
 }
 
 .social {
