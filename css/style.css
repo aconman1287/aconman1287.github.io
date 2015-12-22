@@ -4,18 +4,21 @@ html {
 }
 
 body {
-	font-family: "tk-clavo";
 	background-image: -webkit-linear-gradient(bottom left, #fc7279 10%, #ff7b9c 65%, #ffc019 125%);
 	background-image: linear-gradient(to top right,#fc7279 10%, #ff7b9c 65%, #ffc019 125%);
 	color: white;
 }
 
-h1 {
-  font-family: "tk-kinescope";
+p {
+	font-family: "clavo";
 }
 
-h2 h6 {
-	font-family: "tk-kinescope";
+.h2, h2 {
+	font-family: "kinescope";
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+  font-family: "kinescope";
 }
 
 .social {
@@ -105,12 +108,6 @@ h2 h6 {
 	font-family: "blenny";
 }
 
-.designation {
-	color: white;
-	font-family: "ff-market-web";
-}
-
-
 /*Call*/
 
 #call {
@@ -196,63 +193,6 @@ h2 h6 {
     .pImages p {
         padding-top: 20px;
     }
-}
-
-/*Skills*/
-
-.skills {
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-.skillsImages img {
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-/*Bio*/
-.bio {
-	min-height: 400px;
-}
-
-.bio .row {
-	padding-top: 100px;
-}
-
-.bio h2 {
-	font-family: "flood-std";
-}
-
-.bio p {
-	font-family: "factoria";
-}
-
-/*Contact*/
-
-.contact {
-	background-image: url('../img/contactme.jpg');
-	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 1280px;
-}
-
-.jumbotron {
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: transparent;
-	margin-bottom: 0px;
-}
-
-.contact h2 {
-
-
-}
-
-.send {
-	#gradient > .directional(#333; #000; 45deg);
 }
 
 /*Footer*/
